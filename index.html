@@ -1,0 +1,84 @@
+<html>
+    <head>
+
+    </head>
+    
+        <title>
+          Página web de gatitos  
+        </title>
+        <link href="style.css" rel="stylesheet">
+        <!--Fuente-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+    
+
+    <body>
+        <!--Las figuientes etiquetas son para encabezados-->
+        <h1>PÁGINA DE MASCOSTAS</h1>
+        <h2>Esta es mi primera página web</h2>
+        <h3>Esta es una página de gatitos cute</h3>
+        <h4>La autora Pamela González Torres, actualmente estudia Ingeniería Fotónica en el IPN, en 3er semestre.</h4>
+
+        <!--Insertaremos una imagen una página desde internet-->
+        <img src="https://www.zooplus.es/magazine/wp-content/uploads/2022/05/Cuanto-pesa-un-gato-2.jpeg">
+        <br>
+        <!--Insertaremos imagen de nuestra computadora-->
+        <img src="imagenes/gato.jpg">
+
+        <!--Listas ordenadas(numeradas) y desordenadas(viñetas)-->
+        <h3>Lista de gatitos</h3>
+        <p>3 cosas que aman los gatitos <strong>aman</strong></p>
+
+        <!--Lista ordenada-->
+        <ol> <!--Viene del inglés ordered list-->
+            <li>Dormir</li>
+            <li>Comer</li>
+            <li>Jugar</li>
+        </ol>
+
+        <!--Lista desordenada-->
+        <p>3 cosas que odian los gatitos <strong>odian</strong></p>
+        <ul> <!--Viene del inglés unordered list, ponermos li*3 (números de elementos)-->
+            <li>Bañarse</li>
+            <li>Caminar</li>
+            <li>Correr</li>    
+        </ul>
+
+        <!--Hipervínculos: Crear enlaces externos (enlaces en letras), target=""--pestaña nueva-->
+        <p>Si quieres ver más imágenes de gatitos <a href="https://www.google.com.mx/search?q=fotos+de+gatitos&hl=es&tbm=isch&source=hp&biw=1536&bih=754&ei=O4veY7GpPKnAkPIPuaKnkAQ&iflsig=AK50M_UAAAAAY96ZTP0TH5hZOXW_dGRWklU2fezEDNbk&ved=0ahUKEwjxsrCAqPz8AhUpIEQIHTnRCUIQ4dUDCAc&uact=5&oq=fotos+de+gatitos&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CAgAELEDEIMBOgsIABCABBCxAxCDAToKCAAQDRCABBCxAzoHCAAQDRCABDoNCAAQDRCABBCxAxCDAToECAAQA1DJB1j8MWDbM2gFcAB4AIABS4gBoAmSAQIxOJgBAKABAaoBC2d3cy13aXotaW1nsAEA&sclient=img" target="_blan">da click aquí</a></p>
+
+    
+        <!--Formulario con botones de radios, id= nombre de selección y name=nombre del formulario-->
+        <form>
+            <p>¿Tu gatito es bebé o adulto?</p>
+            <label>
+                <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto"checked> Cachorro
+            </label>
+            <br>
+            <label>
+                <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> Adulto
+            </label>
+
+            <!--Formulario con casillas de verificación-->
+            <p>¿Cómo es el carácter de tu gato?</p>
+            <label>
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"checked> Perezoso
+            </label>
+            <br>
+            <label>
+                <input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad"> Cariñoso
+            </label>
+            <br>
+            <label>
+                <input id="jugueton" type="checkbox" value="jugueton" name="personalidad"> Jugueton
+            </label>
+
+        </form>
+
+        <footer>
+            <p><small>Está página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blan">Tecnolochicas Pro</a>, 04 de febrero de 2023.</small></p>
+        </footer>
+    </body>
+
+</html>

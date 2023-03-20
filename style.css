@@ -1,0 +1,38 @@
+body{
+    /*Ponerle color a las letras*/
+    color:brown; 
+    /*Ponerle color al fondo*/
+    background-color:rgb(247, 191, 241);
+    /*Ponerle una fuente diferente*/
+    font-family: 'Zeyada', cursive;
+
+    
+}
+
+/*Ponerle color diferente a los h1*/
+h1{
+    color:black;
+    font-size: 80px;
+
+}
+
+/*Ponerle color diferente a los h3*/
+h4{
+    color:green;
+
+}
+
+/*Ponerle tamaño las imágenes*/
+img{
+    /*Ancho de imágenes*/
+    width: 400px;
+    heigth: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Ponerle color diferente al footer*/
+footer[
+    background-color: negro;
+    color: 
+]
